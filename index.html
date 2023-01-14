@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carreras de autos</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDJbZihM3ebaHYBBkIYJp6JDfH97Trn7hs",
+      authDomain: "carreras-62f2e.firebaseapp.com",
+      projectId: "carreras-62f2e",
+      storageBucket: "carreras-62f2e.appspot.com",
+      messagingSenderId: "877500375358",
+      appId: "1:877500375358:web:8f123389027d1d8b414c6f"
+    };
+      // inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
